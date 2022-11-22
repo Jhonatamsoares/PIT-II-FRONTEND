@@ -7,7 +7,7 @@ import DisplayRestaurant from "./mainpage/DisplayRestaurant";
 import ShopCart from "./mainpage/ShopCart";
 import CustomerOrder from "./mainpage/CustomerOrder";
 import CustomerHistory from "./mainpage/CustomerHistory";
-import './api.js';
+
 
 class CustomerView extends React.Component {
   constructor(props) {

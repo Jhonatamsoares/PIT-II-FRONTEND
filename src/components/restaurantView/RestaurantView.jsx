@@ -7,7 +7,7 @@ import RestaurantHome from "./mainpage/RestaurantHome";
 import RestaurantHistory from "./mainpage/RestaurantHistory";
 import RestaurantInfo from "./mainpage/RestaurantInfo";
 import RestaurantMenu from "./mainpage/RestaurantMenu";
-import './api.js';
+
 
 class RestaurantView extends React.Component {
   constructor(props) {

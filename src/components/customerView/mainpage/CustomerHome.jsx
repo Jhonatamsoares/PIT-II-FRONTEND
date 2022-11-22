@@ -8,7 +8,7 @@ import {
 } from '@material-ui/core';
 import RestaurantCard from "../../card/RestaurantCard";
 import "./Customer.css";
-import './api.js';
+
 const axios = require('axios').default;
 
 class CustomerHome extends React.Component {

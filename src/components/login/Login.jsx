@@ -12,7 +12,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Radio from '@material-ui/core/Radio';
 import { Link } from "react-router-dom";
 import './Login.css';
-import './api.js';
+
 const axios = require('axios').default;
 
 class Login extends React.Component {
@@ -34,7 +34,7 @@ class Login extends React.Component {
 
   loginUser(event) {
     event.preventDefault();
-    axios.post("/api/" +this.state.userType + "/login", {userName: this.state.userName, password: this.state.password}).then(
+    axios.post("./api/" +this.state.userType + "/login", {userName: this.state.userName, password: this.state.password}).then(
       response => {
         this.props.changeUser(response.data, "login");
       }

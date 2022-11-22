@@ -8,7 +8,7 @@ import RestaurantView from '../restaurantView/RestaurantView';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import {Grid} from '@material-ui/core';
 import './Main.css';
-import './api.js';
+
 const axios = require('axios').default;
 
 class Main extends React.Component {

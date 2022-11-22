@@ -8,7 +8,7 @@ import Rating from '@material-ui/lab/Rating';
 import DeleteIcon from '@material-ui/icons/Delete';
 import "./Card.css";
 import MapCard from "./MapCard";
-import './api.js';
+
 const axios = require('axios').default;
 Geocode.setApiKey(process.env.REACT_APP_API_KEY);
 Geocode.setRegion("us");

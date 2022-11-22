@@ -3,7 +3,7 @@ import {Grid, Typography, Button} from '@material-ui/core';
 import { Link } from "react-router-dom";
 import "./Customer.css";
 import DishCard from "../../card/DishCard";
-import './api.js';
+
 const axios = require('axios').default;
 
 class DisplayRestaurant extends React.Component {

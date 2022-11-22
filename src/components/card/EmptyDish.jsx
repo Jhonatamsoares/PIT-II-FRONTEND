@@ -2,7 +2,7 @@ import React from 'react';
 import {Card, CardHeader, IconButton, CardContent, TextField, Divider} from "@material-ui/core";
 import AddIcon from '@material-ui/icons/Add';
 import "./Card.css";
-import './api.js';
+
 const axios = require('axios').default;
 
 class EmptyDish extends React.Component {

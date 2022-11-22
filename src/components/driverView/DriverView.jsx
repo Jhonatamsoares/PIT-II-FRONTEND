@@ -5,7 +5,7 @@ import DriverBar from "./sidebar/DriverBar";
 import DriverOrder from "./mainpage/DriverOrder";
 import DriverHome from "./mainpage/DriverHome";
 import DriverHistory from "./mainpage/DriverHistory";
-import './api.js';
+
 
 class DriverView extends React.Component {
   constructor(props) {
