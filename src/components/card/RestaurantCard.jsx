@@ -1,23 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import {
-    Typography,
-    Card,
-    CardHeader,
-    CardContent,
-    Collapse,
-    IconButton,
-    Avatar,
-    Grid,
-    Box,
-    MobileStepper,
-    Button
-        } from "@material-ui/core";
+import {Typography, Card, CardHeader, CardContent, Collapse, IconButton, Avatar, Grid, Box, MobileStepper, Button} from "@material-ui/core";
 import Rating from '@material-ui/lab/Rating';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import "./Card.css";
+import './api.js';
 const axios = require('axios').default;
 
 class RestaurantCard extends React.Component {

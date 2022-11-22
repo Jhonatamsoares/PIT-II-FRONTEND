@@ -3,6 +3,7 @@ import {AppBar, Toolbar, Typography, Grid} from '@material-ui/core';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import './TopBar.css';
 import UserMenu from "./UserMenu"
+import './api.js';
 const axios = require('axios').default;
 
 const theme = createMuiTheme({

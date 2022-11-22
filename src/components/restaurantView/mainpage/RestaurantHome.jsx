@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Divider } from '@material-ui/core';
+import './api.js';
 const axios = require('axios').default;
 
 class RestaurantHome extends React.Component {

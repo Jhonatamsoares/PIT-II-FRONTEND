@@ -1,9 +1,6 @@
 import React from 'react';
-import {
-  StaticGoogleMap,
-  Marker,
-  Direction
-} from 'react-static-google-map';
+import {StaticGoogleMap, Marker, Direction} from 'react-static-google-map';
+
 
 class MapCard extends React.Component {
 

@@ -1,9 +1,8 @@
 import React from 'react';
-import {
-  Grid
-} from '@material-ui/core';
+import {Grid} from '@material-ui/core';
 import DishCard from "../../card/DishCard";
 import EmptyDish from '../../card/EmptyDish';
+import './api.js';
 const axios = require('axios').default;
 
 class RestaurantMenu extends React.Component {

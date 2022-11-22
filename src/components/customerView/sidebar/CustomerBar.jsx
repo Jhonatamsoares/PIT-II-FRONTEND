@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import {List, ListItem, ListItemText, Divider}
-from '@material-ui/core';
+import {List, ListItem, ListItemText, Divider}from '@material-ui/core';
+import './api.js';
 
 class CustomerBar extends React.Component {
   render() {

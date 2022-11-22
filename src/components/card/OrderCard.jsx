@@ -3,22 +3,12 @@ import { Link } from "react-router-dom";
 import ClearIcon from '@material-ui/icons/Clear';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Geocode from "react-geocode";
-import {
-  Typography,
-  Card,
-  CardContent,
-  IconButton,
-  Grid,
-  Divider,
-  Collapse,
-  Button,
-  Box,
-  TextField
-      } from "@material-ui/core";
+import {Typography, Card, CardContent, IconButton, Grid, Divider, Collapse, Button, Box, TextField} from "@material-ui/core";
 import Rating from '@material-ui/lab/Rating';
 import DeleteIcon from '@material-ui/icons/Delete';
 import "./Card.css";
 import MapCard from "./MapCard";
+import './api.js';
 const axios = require('axios').default;
 Geocode.setApiKey(process.env.REACT_APP_API_KEY);
 Geocode.setRegion("us");

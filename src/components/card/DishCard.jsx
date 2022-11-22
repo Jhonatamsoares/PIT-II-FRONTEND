@@ -1,16 +1,10 @@
 import React from 'react';
-import {
-  Typography,
-  Card,
-  CardHeader,
-  IconButton,
-  CardActions,
-  Grid
-      } from "@material-ui/core";
+import {Typography, Card, CardHeader, IconButton, CardActions, Grid} from "@material-ui/core";
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
 import DeleteIcon from '@material-ui/icons/Delete';
 import "./Card.css";
+import './api.js';
 const axios = require('axios').default;
 
 class DishCard extends React.Component {

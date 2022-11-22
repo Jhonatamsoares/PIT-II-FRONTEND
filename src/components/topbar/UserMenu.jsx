@@ -3,6 +3,7 @@ import {
   Typography, Grid, Menu, MenuItem, IconButton, Button, Dialog, TextField
 } from '@material-ui/core';
 import SettingsIcon from '@material-ui/icons/Settings';
+import './api.js';
 const axios = require('axios').default;
 
 class UserMenu extends React.Component {
